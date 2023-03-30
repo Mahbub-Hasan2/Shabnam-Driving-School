@@ -2,7 +2,7 @@
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
-    "./node_modules/flowbite/**/*.js"
+    'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'
   ],
   theme: {
     extend: {
@@ -11,7 +11,8 @@ module.exports = {
         'secondary': '#2D2D2C',
         'dark': '#1A1A1A',
         'light': '#F9F9F9',
-      }
+      },
+      backgroundImage: {},
     },
   },
   plugins: [

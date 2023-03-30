@@ -3,8 +3,8 @@ import ErrorPage from "../pages/ErrorPage";
 
 const pagesData = [
   {
-    path: "/",
-    element: <Home />,
+    path: "",
+    element: <Home/>,
     title: "home"
   },
   {
