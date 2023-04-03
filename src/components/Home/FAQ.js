@@ -28,23 +28,37 @@ const faqData = [
     }
 ]
 
+
+
 const FAQ = () => {
+    const [expanded, setExpanded] = React.useState('panel1');
+
+    const handleChange = (panel) => (event, newExpanded) => {
+        setExpanded(newExpanded ? panel : false);
+    };
+
     return (
-        <div className='container mx-auto md:py-20 py-5'>
+        <div className="bg-[url('https://png.pngtree.com/background/20210716/original/pngtree-white-abstract-vector-web-background-design-picture-image_1354906.jpg')] w-full bg-cover bg-center md:h-screen h-full">
+            <div className='container mx-auto md:py-20 py-5'>
+                <div className="mb-5 text-center">
+                    <h2 className='text-xl font-bold'>FAQ! Need Help?</h2>
+                </div>
 
-            <div className="grid grid-cols-5 gap-5">
-                <div className="md:col-span-3 col-span-5">
-                    <ol className="relative border-l border-gray-200 dark:border-gray-700">
-                        {faqData.map((item, index) => <FAQItems key={index} item={item} />)}
-                    </ol>
+                <div className="grid grid-cols-5 gap-5">
+                    <div className="md:col-span-3 col-span-5">
+                        <div>
+                            {faqData.map((item, index) => <FAQItems expanded={expanded} handleChange={handleChange}  key={index} i={index} item={item} />)}
+                        </div>
+                    </div>
+
+                    <div className="md:col-span-2 col-span-5">
+                        <p className="border rounded-lg p-5 shadow sticky top-0">
+                            Our FAQ section provides quick and easy access to important information about our driving school. It is designed to answer common questions that our students may have, without the need to contact us directly. Our FAQ section is organized into categories or sections, making it easy to find the information you need. We provide clear and concise answers to each question, ensuring that our students have a positive and hassle-free experience. Our FAQ section is just one of the ways that we demonstrate our commitment to providing the best possible service to our students.
+                        </p>
+                    </div>
                 </div>
-                <div className="md:col-span-2 col-span-5">
-                    <p className="border rounded-lg p-5 shadow">
-                        Our FAQ section provides quick and easy access to important information about our driving school. It is designed to answer common questions that our students may have, without the need to contact us directly. Our FAQ section is organized into categories or sections, making it easy to find the information you need. We provide clear and concise answers to each question, ensuring that our students have a positive and hassle-free experience. Our FAQ section is just one of the ways that we demonstrate our commitment to providing the best possible service to our students.
-                    </p>
-                </div>
+
             </div>
-
         </div>
     );
 };
