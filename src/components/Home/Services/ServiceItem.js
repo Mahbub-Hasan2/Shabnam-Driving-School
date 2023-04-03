@@ -1,7 +1,6 @@
 import React from 'react';
 
 const ServiceItem = ({item, id}) => {
-console.log(id % 2)
     return (
         <div className={`grid grid-cols-2 md:gap-2 gap-0`}>
             <div className={`group relative ${id % 2 === 0 ? 'order-none' : 'order-1'} flex justify-center items-center p-2`}>
