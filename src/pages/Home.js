@@ -4,6 +4,7 @@ import Benefits from '../components/Home/Benefits';
 import FAQ from '../components/Home/FAQ';
 import Header from '../components/Home/Header';
 import Service from '../components/Home/Services';
+import ContactUs from '../components/Home/ContactUs';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <About/>
             <Service/>
             <FAQ/>
+            <ContactUs/>
         </div>
     );
 };

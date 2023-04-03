@@ -3,7 +3,7 @@ import Button from "../UI/Button";
 
 const Header = () => {
   return (
-    <div className="bg-[url('https://images.pexels.com/photos/1719648/pexels-photo-1719648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] w-full bg-cover bg-center md:h-screen h-[70vh]">
+    <div className="bg-[url('https://images.pexels.com/photos/754595/pexels-photo-754595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] w-full bg-cover bg-center md:h-screen h-[70vh]">
       <header className="" style={{backgroundImage: 'linear-gradient(290deg, #ffffff00 0 50%, #ffffff00 50% 100%)'}}>
         <div className="container mx-auto sm:px-6 px-2 sm:text-left text-center">
           <div className="md:h-screen h-[70vh] flex items-center bg-[]">
