@@ -3,7 +3,7 @@ import React from "react";
 const Benefits = () => {
   return (
     <div className="bg-secondary">
-      <div className="container mx-auto sm:px-6 px-2 sm:py-8">
+      <div className="container mx-auto sm:px-6 px-2 sm:py-8 py-3">
         <div className="py-2">
           <h5 className="text-xl text-primary font-bold text-center">
             Benefits Of Training

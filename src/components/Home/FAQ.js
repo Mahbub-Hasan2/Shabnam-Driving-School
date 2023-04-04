@@ -39,7 +39,7 @@ const FAQ = () => {
 
     return (
         <div className="bg-[url('https://png.pngtree.com/background/20210716/original/pngtree-white-abstract-vector-web-background-design-picture-image_1354906.jpg')] w-full bg-cover bg-center md:h-screen h-full">
-            <div className='container mx-auto md:py-20 py-5'>
+            <div className='container mx-auto md:py-20 py-5 px-2'>
                 <div className="mb-5 text-center">
                     <h2 className='text-xl font-bold'>FAQ! Need Help?</h2>
                 </div>

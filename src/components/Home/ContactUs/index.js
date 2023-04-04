@@ -20,20 +20,20 @@ const ContactUs = () => {
                                         <p className="grid content-center">
                                             <MdLocationOn className='text-xl' />
                                         </p>
-                                        <p className='text-base font-inter '>Sylhet, Bangladesh</p>
+                                        <p className='text-base font-inter '><a href="https://goo.gl/maps/qUbNydW2cuuxoodG9" target="_blank" rel="noopener noreferrer"> 2405 Finch avenue west. North york. M9M2x2</a></p>
                                     </div>
                                     <div className="flex gap-3 mb-2  hover:text-light text-primary cursor-pointer">
                                         <p className="grid content-center">
                                             <IoCall className='text-xl' />
                                         </p>
-                                        <p className='text-base font-inter '>+8801966945992</p>
+                                        <p className='text-base font-inter '>Cell - 647-222-4345</p>
                                     </div>
                                     <div className="flex gap-3  hover:text-light text-primary cursor-pointer">
                                         <p className="grid content-center">
                                             <IoMdMail className='text-xl' />
                                         </p>
                                         <p className='text-base font-inter '>
-                                            <a href="mailto:mahbubdev1@gmail.com" target="_blank" rel="noopener noreferrer">mahbubdev1@gmail.com</a>
+                                            <a href="mailto:mahbubdev1@gmail.com" target="_blank" rel="noopener noreferrer">shabnam.priyanka@live.ca</a>
                                         </p>
                                     </div>
                                 </div>
