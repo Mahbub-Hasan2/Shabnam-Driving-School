@@ -13,7 +13,7 @@ const testimonialsData = [
     },
     {
         id: 2,
-        img: 'https://avatars.githubusercontent.com/u/67515174?v=4',
+        img: 'https://avatars.githubusercontent.com/u/67123174?v=4',
         name: 'Mahbub Hasan',
         psition: 'Seles Manager, Slack',
         title: "It waas a great expirience!",
@@ -22,7 +22,7 @@ const testimonialsData = [
     },
     {
         id: 3,
-        img: 'https://avatars.githubusercontent.com/u/67515174?v=4',
+        img: 'https://avatars.githubusercontent.com/u/67535174?v=4',
         name: 'Rahul Kumar',
         psition: 'Seles Manager, Slack',
         title: "It waas a great expirience!",
@@ -31,7 +31,7 @@ const testimonialsData = [
     },
     {
         id: 4,
-        img: 'https://avatars.githubusercontent.com/u/67515174?v=4',
+        img: 'https://avatars.githubusercontent.com/u/67554174?v=4',
         name: 'Rahul Kumar',
         psition: 'Seles Manager, Slack',
         title: "It waas a great expirience!",
@@ -40,7 +40,7 @@ const testimonialsData = [
     },
     {
         id: 5,
-        img: 'https://avatars.githubusercontent.com/u/67515174?v=4',
+        img: 'https://avatars.githubusercontent.com/u/1234567?v=4',
         name: 'Rahul Kumar',
         psition: 'Seles Manager, Slack',
         title: "It waas a great expirience!",
@@ -69,7 +69,7 @@ const Testimonials = () => {
                 <div className="grid grid-cols-5 md:gap-5 text-[#92909081]">
                     <div className="rounded-xl md:col-span-2 col-span-5 h-[370px] overflow-x-hidden container-snap">
                         {testimonialsData.map((testimonial, i) => (
-                            <div key={i} onClick={() => setTestimonialSin(testimonial)} className={`p-5 ${testimonialSin.id === testimonial.id ? 'shadow-md cursor-default' : "cursor-pointer"} flex gap-5 rounded-xl`}>
+                            <div key={i} onClick={() => setTestimonialSin(testimonial)} className={`p-5 ${testimonialSin.id === testimonial.id ? 'shadow cursor-default' : "cursor-pointer"} mx-1 flex gap-5 rounded-xl`}>
                                 <div className="">
                                     <img className='h-12 w-12 rounded-full' src={testimonial.img} alt="" />
                                 </div>
