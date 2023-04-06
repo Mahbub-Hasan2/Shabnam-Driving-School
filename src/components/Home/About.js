@@ -1,4 +1,5 @@
 import React from 'react';
+import aboutimg from '../../Assets/images/about.jpg';
 
 const About = () => {
     return (
@@ -19,7 +20,7 @@ const About = () => {
                         </div>
                     </div>
                     <div className="hidden md:block">
-                        <img className='rounded-xl border-2 border-primary' src="https://media.istockphoto.com/id/489488900/photo/pedestrian-crossing-from-the-drivers-eyes.jpg?s=612x612&w=0&k=20&c=pXEAfNu9mKa-rPCUDiZbcqkLtTk1xwdXOzS6osuTmgY=" alt="" />
+                        <img className='rounded-xl border-2 border-primary' src={aboutimg} alt="" />
                     </div>
                 </div>
             </div>

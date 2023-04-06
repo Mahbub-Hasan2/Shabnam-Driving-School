@@ -60,14 +60,29 @@ const testimonialsData = [
 
 const Testimonials = () => {
     const [testimonialSin, setTestimonialSin] = React.useState(testimonialsData[0]);
+    const [testimonialSinId, setTestimonialSinId] = React.useState(0);
+    console.log(testimonialSinId);
+
+    React.useEffect(() => {
+        if (testimonialSinId <= 0) {
+            setTestimonialSin(testimonialsData[0]);
+        }
+        else if (testimonialSinId >= testimonialsData.length) {
+            setTestimonialSin(testimonialsData[testimonialsData.length - 1]);
+        }
+        else {
+            setTestimonialSin(testimonialsData[testimonialSinId]);
+        }
+    }, [testimonialSinId]);
+
     return (
-        <div className='md:px-28 px-2'>
+        <div className='md:px-28 px-2 md:pb-20 pb-10'>
             <div className="container mx-auto">
                 <div className="py-10">
-                    <h2 className="text-4xl font-bold">Testimonials</h2>
+                    <h2 className="md:text-4xl text-2xl md:text-start text-center font-bold">Testimonials</h2>
                 </div>
                 <div className="grid grid-cols-5 md:gap-5 text-[#92909081]">
-                    <div className="rounded-xl md:col-span-2 col-span-5 h-[370px] overflow-x-hidden container-snap">
+                    <div className="hidden md:block rounded-xl md:col-span-2 col-span-5 h-[370px] overflow-x-hidden container-snap">
                         {testimonialsData.map((testimonial, i) => (
                             <div key={i} onClick={() => setTestimonialSin(testimonial)} className={`p-5 ${testimonialSin.id === testimonial.id ? 'shadow cursor-default' : "cursor-pointer"} mx-1 flex gap-5 rounded-xl`}>
                                 <div className="">
@@ -82,15 +97,11 @@ const Testimonials = () => {
                         <div className="sticky bottom-0 text-center bg-gradient-to-t from-[#dfdfdf69] to-[#ffffff00]">see</div>
                     </div>
                     <div className="md:col-span-3 col-span-5 flex items-center">
-                        <TestimonialItem testimonialSin={testimonialSin} />
+                        
+                        <TestimonialItem testimonialSinId={testimonialSinId} setTestimonialSinId={setTestimonialSinId} testimonialsData={testimonialsData} testimonialSin={testimonialSin} />
                     </div>
                 </div>
             </div>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
         </div>
     );
 };

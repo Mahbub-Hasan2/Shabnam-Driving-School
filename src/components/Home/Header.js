@@ -7,7 +7,7 @@ const Header = () => {
 
   let description = "Welcome to our driving school, where safe and skilled driving is our top priority. Our team of expert instructors is dedicated to helping you learn the necessary skills and knowledge to become a confident driver. With our proven curriculum, personalized instruction, and engaging classes, you can feel confident that you're getting the best possible training on the road. Whether you're a beginner or an experienced driver looking to brush up on your skills, we have lessons and packages that are tailored to your individual needs and schedule. So why wait? Sign up today and start your journey towards becoming a safe and skilled driver with us!"
   return (
-    <div className="bg-[url('https://images.pexels.com/photos/754595/pexels-photo-754595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] w-full bg-cover bg-center md:h-screen h-[70vh]">
+    <div className="bg-[url('../../Assets/images/bg-car-1.jpeg')] w-full bg-cover bg-center md:h-screen h-[70vh]">
       <header className="" style={{ backgroundImage: 'linear-gradient(290deg, #ffffff00 0 50%, #ffffff00 50% 100%)' }}>
         <div className="container mx-auto sm:px-6 px-2 sm:text-left text-center">
           <div className="md:h-screen h-[70vh] flex items-center bg-[]">
