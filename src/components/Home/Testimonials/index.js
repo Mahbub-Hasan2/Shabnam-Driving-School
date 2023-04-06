@@ -61,7 +61,6 @@ const testimonialsData = [
 const Testimonials = () => {
     const [testimonialSin, setTestimonialSin] = React.useState(testimonialsData[0]);
     const [testimonialSinId, setTestimonialSinId] = React.useState(0);
-    console.log(testimonialSinId);
 
     React.useEffect(() => {
         if (testimonialSinId <= 0) {

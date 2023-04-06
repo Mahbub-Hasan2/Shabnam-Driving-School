@@ -2,7 +2,7 @@ import React from "react";
 
 const Benefits = () => {
   return (
-    <div className="bg-secondary">
+    <div className="bg-indigo-50">
       <div className="container mx-auto sm:px-6 px-2 sm:py-8 py-3">
         <div className="py-2">
           <h5 className="text-xl text-primary font-bold text-center">
@@ -22,8 +22,8 @@ const Benefits = () => {
                   className="rounded-full w-16 h-16 object-contain border-primary border-4"
                 />
               </div>
-              <h3 className="text-light font-bold text-xl">Safe Driving</h3>
-              <p className="text-light font-semibold">
+              <h3 className="text-secondary font-bold text-xl">Safe Driving</h3>
+              <p className="text-secondary font-semibold">
                 You don't Just Learn to drive, but to drive safe with <br className="block md:hidden" /> our
                 expert Trainer
               </p>
@@ -36,8 +36,8 @@ const Benefits = () => {
                   className="rounded-full w-16 h-16 object-contain border-primary border-4"
                 />
               </div>
-              <h3 className="text-light font-bold text-xl">Driving Simulator</h3>
-              <p className="text-light font-semibold">
+              <h3 className="text-secondary font-bold text-xl">Driving Simulator</h3>
+              <p className="text-secondary font-semibold">
               Learn an on-road driving Experience with <br className="block md:hidden" /> our experienced Trainer
               </p>
             </div>
@@ -49,8 +49,8 @@ const Benefits = () => {
                   className="rounded-full w-16 h-16 object-contain border-primary border-4"
                 />
               </div>
-              <h3 className="text-light font-bold text-xl">Personalised Courses</h3>
-              <p className="text-light font-semibold">
+              <h3 className="text-secondary font-bold text-xl">Personalised Courses</h3>
+              <p className="text-secondary font-semibold">
               Design a well Organized Courses for <br className="block md:hidden" /> our valuable clients.
               </p>
             </div>
