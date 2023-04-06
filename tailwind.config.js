@@ -14,6 +14,10 @@ module.exports = {
       },
       backgroundImage: {},
     },
+    fontFamily: {
+      roboto: ['Roboto', 'sans-serif'],
+      poppins: ['Poppins', 'sans-serif']
+    }
   },
   plugins: [
     require('flowbite/plugin')

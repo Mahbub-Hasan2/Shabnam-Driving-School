@@ -38,7 +38,7 @@ const FAQ = () => {
     };
 
     return (
-        <div className="bg-[url('https://png.pngtree.com/background/20210716/original/pngtree-white-abstract-vector-web-background-design-picture-image_1354906.jpg')] w-full bg-cover bg-center md:h-screen h-full">
+        <div className="font-poppins bg-[url('https://png.pngtree.com/background/20210716/original/pngtree-white-abstract-vector-web-background-design-picture-image_1354906.jpg')] w-full bg-cover bg-center md:h-screen h-full">
             <div className='container mx-auto md:py-20 py-5 px-2'>
                 <div className="mb-5 text-center">
                     <h2 className='text-xl font-bold'>FAQ! Need Help?</h2>
@@ -52,7 +52,7 @@ const FAQ = () => {
                     </div>
 
                     <div className="md:col-span-2 col-span-5">
-                        <p className="border rounded-lg p-5 shadow sticky top-0">
+                        <p className="font-roboto border rounded-lg p-5 shadow sticky top-0">
                             Our FAQ section provides quick and easy access to important information about our driving school. It is designed to answer common questions that our students may have, without the need to contact us directly. Our FAQ section is organized into categories or sections, making it easy to find the information you need. We provide clear and concise answers to each question, ensuring that our students have a positive and hassle-free experience. Our FAQ section is just one of the ways that we demonstrate our commitment to providing the best possible service to our students.
                         </p>
                     </div>

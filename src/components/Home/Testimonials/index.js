@@ -75,7 +75,7 @@ const Testimonials = () => {
     }, [testimonialSinId]);
 
     return (
-        <div className='md:px-28 px-2 md:pb-20 pb-10'>
+        <div className='font-poppins md:px-28 px-2 md:pb-20 pb-10'>
             <div className="container mx-auto">
                 <div className="py-10">
                     <h2 className="md:text-4xl text-2xl md:text-start text-center font-bold">Testimonials</h2>

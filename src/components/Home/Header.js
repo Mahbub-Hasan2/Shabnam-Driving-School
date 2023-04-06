@@ -42,11 +42,11 @@ const Header = () => {
                   ]}
                   wrapper="h2"
                   repeat={Infinity}
-                  className="md:text-4xl sm:text-3xl text-xl text-primary font-bold shadow-2xl"
+                  className="font-poppins md:text-4xl sm:text-3xl text-xl text-primary font-bold shadow-2xl"
                 />
               </div>
 
-              <p className="md:text-base text-sm  text-light md:py-5 py-2 lg:w-1/2 w-full">
+              <p className="font-poppins md:text-base text-sm  text-light md:py-5 py-2 lg:w-1/2 w-full">
                 {showMore ? description : `${description.substring(0, 250)}`}
                 <button className="text-blue-500 ml-2" onClick={() => setShowMore(!showMore)}>{showMore ? "Show less" : "Show more"}</button>
               </p>
