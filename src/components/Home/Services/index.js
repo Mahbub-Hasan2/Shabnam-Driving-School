@@ -36,7 +36,7 @@ const servicesData = [
 
 const Services = () => {
   return (
-    <div className="bg-light font-poppins">
+    <div id="SERVICES" className="bg-light font-poppins">
       <div className="container mx-auto sm:px-6 px-2 sm:py-8">
         <div className="py-2">
           <h2 className="text-2xl font-bold text-center text-secondary py-10">

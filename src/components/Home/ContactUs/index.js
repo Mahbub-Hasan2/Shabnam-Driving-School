@@ -6,7 +6,7 @@ import { MdLocationOn } from "react-icons/md";
 
 const ContactUs = () => {
     return (
-        <div className="font-poppins bg-[url('https://images.pexels.com/photos/7762717/pexels-photo-7762717.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] w-full bg-cover bg-center md:h-screen h-full">
+        <div id='CONTACT' className="font-poppins bg-[url('https://images.pexels.com/photos/7762717/pexels-photo-7762717.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] w-full bg-cover bg-center md:h-screen h-full">
             <div className="bg-[#0000008a] w-full flex items-center h-full lg:px-28 px-2 md:py-10 py-5">
                 <div className="container mx-auto">
                     <div className="grid grid-cols-5 gap-2">

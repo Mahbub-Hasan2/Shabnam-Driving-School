@@ -18,10 +18,10 @@ const ContactForm = () => {
         setLoading(true);
         emailjs
             .sendForm(
-                "service_jfpzp9a", // email-js service-Id (here use google)
-                "template_1d74zxa", // email-js template Id
+                "service_brnmtxr", // email-js service-Id (here use google)
+                "template_p85t48h", // email-js template Id
                 e.target,
-                "tj4zchgaAjf2dL760" // email-js user Id
+                "PZWJoL3PoNLiYAnzj" // email-js user Id
             )
             .then(
                 (result) => {

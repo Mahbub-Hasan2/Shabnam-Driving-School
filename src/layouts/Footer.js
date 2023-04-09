@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollToTop from './ScrollToTop';
 
 const Footer = () => {
     return (
@@ -22,6 +23,7 @@ const Footer = () => {
                     </li>
                 </ul>
             </div>
+            <ScrollToTop />
         </footer>
 
     );

@@ -3,7 +3,7 @@ import aboutimg from '../../Assets/images/about.jpg';
 
 const About = () => {
     return (
-        <div className='font-poppins container mx-auto sm:px-6 px-2 sm:py-8'>
+        <div id='ABOUT' className='font-poppins container mx-auto sm:px-6 px-2 sm:py-8'>
             <div className="md:py-2">
                 <h2 className="text-2xl font-bold text-center text-primary md:py-10 py-8" >About Us</h2>
             </div>
